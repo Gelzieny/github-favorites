@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>GitHub Favorites</h1>
+        <div class="search">
+          <label for="inputsearch">Usuário do GitHub</label>
+          <input type="text" name="githubuser" id="input-search" placeholder="Usuário do GitHub">
+          <button>&plus;</button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th> 
+            <th>Seguidores</th>  
+            <th></th>          
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img src="https://github.com/maykbrito.png" alt="Imagem de Mayk Brito">
+              <a href="https://github.com/maykbrito" target="_blank">
+                <p>Mayk Brito</p>
+                <span>maykbrito</span>
+              </a>
+            </td>
+            <td class="repositories">
+              76
+            </td>
+            <td class="followers">
+              9589
+            </td>
+            <td>&times;</td>
+          </tr>
+          <tr>
+            <td class="user">
+              <img src="https://github.com/gelzieny.png" alt="Imagem de Gelzieny R. Martins">
+              <a href="https://github.com/gelzieny" target="_blank">
+                <p>Gelzieny R. Martins</p>
+                <span>gelzieny</span>
+              </a>
+            </td>
+            <td class="repositories">
+              48
+            </td>
+            <td class="followers">
+              22503
+            </td>
+            <td>&times;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
